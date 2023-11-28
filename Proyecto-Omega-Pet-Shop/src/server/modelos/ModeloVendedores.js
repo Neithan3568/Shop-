@@ -42,7 +42,7 @@ userSchema.pre('save', async function (next){
 
 
 userSchema.methods.ObtenerTokenJWT = function(){
-    const JWT_SECRET_KEY = "una troca salio de durango, a las 2 o 3 de la mañana"
+    const JWT_SECRET_KEY = "SI TE VAS NO HAY LIO"
     return jwt.sign({
         id: this._id,
         nombreEmpresa: this.nombreEmpresa,
