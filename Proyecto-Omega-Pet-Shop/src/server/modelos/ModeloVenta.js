@@ -32,7 +32,7 @@ const ventaSchema = new mongoose.Schema(
             type:String,
             enum:[
                 'efectivo',
-                'targeta',
+                'tarjeta',
                 'billetera digital'
             ]
         },
