@@ -122,7 +122,7 @@ const Compra = () => {
                 </div>
                 <div className='box_compra'>
                     <div className='imgCompra'>
-                        <img src='/img/chuncy.jpg' width='100%' style={{ borderRadius: 10 }} ></img>
+                        <img src='/img/chuncky.jpg' width='100%' style={{ borderRadius: 10 }} ></img>
                     </div>
                     <div className='contenidoC'>
                         <div className='logoC'>
