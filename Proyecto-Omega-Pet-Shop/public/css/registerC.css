@@ -1,0 +1,264 @@
+
+.tituloRC{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: -580px;
+    border-bottom: dotted 8px rgb(49, 252, 22);
+}
+
+.tituloRE{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: -560px;
+    border-bottom: dotted 8px rgb(70, 88, 50);
+}
+.register_C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 800px;
+}
+.lineaB{
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin-bottom: 2px;
+}
+.lineaY{
+    border-top: solid 3px rgb(68, 252, 22);
+    margin-top: 2px;
+    padding-top: 18px;
+}
+.lineaR{
+    border-top: solid 3px rgb(80, 199, 12);
+    margin-top: 2px;
+    padding-top: 18px;
+}
+.boton_R{
+    text-decoration: none;
+    background-color: rgb(0,56,147);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: solid 2px rgb(0,56,147);
+    margin-top: 7px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.nav_RE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Raleway';
+    background-color: rgb(23, 209, 16);
+}
+
+
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    height: 132px;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.textoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.archivoInput {
+    display: none;
+  }
+
+.etiquetaArchivo {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+.imgR{
+    width: 110px;
+    height: 110px;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 100% 100%;
+    background-image: url(../img/logo_fondo.png);
+    background-size: cover;
+}
+.blue{
+    color: rgb(0,56,147);
+}
+
+@media screen and (max-width: 1078px) {
+    .tituloRE{
+        margin-left: -460px;
+    }
+    .tituloRC{
+        margin-left: -460px;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .tituloRE{
+        margin-left: -430px;
+    }
+    .tituloRC{
+        margin-left: -430px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .tituloRE{
+        margin-left: -330px;
+    }
+    .tituloRC{
+        margin-left: -330px;
+    }
+    .register_C{
+        width: 542px;
+    }
+    .boton_R{
+        font-size: 14px;
+    }
+    .textoImg{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .tituloRE{
+        margin-left: -230px;
+    }
+    .tituloRC{
+        margin-left: -230px;
+    }
+    .register_C{
+        width: 442px;
+    }
+    .textoImg{
+        margin-right: 7px;
+    }
+    .imgR{
+        width: 80px;
+        height: 80px;
+    }
+    .boton_R{
+        padding: 5px 5px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tituloRE{
+        margin-left: -130px;
+    }
+    .tituloRC{
+        margin-left: -130px;
+    }
+    .register_C{
+        width: 342px;
+    }
+    .textoImg{
+        margin-right: 50px;
+    }
+    .imgR{
+        width: 110px;
+        height: 110px;
+    }
+    .boton_R{
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .tituloRE{
+        margin-left: -3px;
+    }
+    .tituloRC{
+        margin-left: -3px;
+    }
+    .register_C{
+        width: 242px;
+    }
+    .textoImg{
+        margin-right: 17px;
+    }
+    .imgR{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar-header {
+    padding: 15px;
+    float: left;
+  }
+  
+  .navbar-header .logo {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+  }
+  
+  .navbar-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .toggle-btn {
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-nav {
+      display: none;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+    }
+  
+    .navbar-nav.show {
+      display: block;
+    }
+  
+    .navbar-nav li {
+      display: block;
+      border-bottom: 1px solid #555;
+    }
+  
+    .toggle-btn {
+      display: block;
+    }
+  }

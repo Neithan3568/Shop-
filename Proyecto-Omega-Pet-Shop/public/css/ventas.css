@@ -1,0 +1,8 @@
+.containerV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tablaV{
+    margin: 10px 100px;
+}

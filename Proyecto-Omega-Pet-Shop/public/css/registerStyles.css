@@ -1,0 +1,149 @@
+.fondoRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Raleway';
+    background-color: rgb(49, 252, 22);
+}
+.tituloNavR{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+.icono_register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100% 100% 100% 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.bodyNavR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 17px; 
+}
+.box_register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+}
+.line_yellow{
+    border: solid 2px rgb(252,209,22);
+    border-radius: 10px;
+    padding: 20px;
+}
+.tituloR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.botonRE{
+    text-decoration: none;
+    background-color: rgb(0,56,147);
+    color: rgb(255, 255, 255);
+    padding: 5px 50px;
+    border: solid 2px rgb(0,56,147);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+.textoRegister{ 
+    margin: 50px 30px 100px 30px;
+}
+.botonRE:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(0,56,147);
+    color: rgb(0,56,147);
+    transition: 0.5s;
+}
+.text_decoration{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+.text_decoration1{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 13px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 1078px) {
+    .tituloNavR{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    
+}
+
+@media screen and (max-width: 730px) {
+    .tituloNavR{
+        font-size: 27px;
+    }
+    .text_decoration{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .text_decoration{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .box_register{
+        width: 300px;
+    }
+    .botonRE{
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tituloNavR{
+        margin-left: 100px;
+    }
+    .text_decoration{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .tituloNavR{
+        margin-left: 50px;
+    }
+}

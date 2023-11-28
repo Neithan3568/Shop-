@@ -1,0 +1,145 @@
+.text_A{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.text_b{
+    text-decoration: none;
+}
+.mensajeExito{
+    border: solid 1px rgb(53, 224, 1);
+    background-color: rgb(53, 224, 1);
+    padding: 10px;
+}
+.mensajeE{
+    border: solid 1px rgb(144, 252, 3);
+    background-color: rgb(103, 252, 3);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.fondoPagina{
+    display: flex;
+    justify-content: end;
+    background-image: url(../img/fondo_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.fondo{
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(63, 63, 63, 0.5); 
+    width: 560px;
+    height: auto;
+}
+.tituloDulceria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.logo{
+    margin: 0px 8px;
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 290px;
+    margin-left: 25px;
+}
+.titulo{
+    display: flex;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+.loginBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    border: solid 1px black;
+    padding: 0.5px 45px;
+    margin: 0px 5px;
+}
+.buttonR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+    background-color: rgb(96, 131, 0);
+    border: solid 1px rgb(85, 131, 0);
+    padding: 3px 50px;
+    margin: 10px 0px;
+}
+.botonR:hover{
+    background-color: rgb(131, 167, 2);
+    border: solid 1px rgb(118, 167, 2);
+}
+.bi{
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 549px) {
+    .fondo{
+         width: auto;
+         padding: 28px 100px;
+    }
+    .fondoPagina{
+        justify-content: center;
+        
+    }
+    
+}
+@media screen and (max-width: 515px) {
+    .login{
+        margin-left: 13px;
+    }
+    .fondo{
+        padding: 15px 70px;
+   }
+}
+@media screen and (max-width: 416px) {
+    .login{
+        margin-left: 11px;
+    }
+    .fondo{
+        padding: 5px 40px;
+        
+   }
+   .fondoPagina{
+    background-size: cover;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .login{
+        margin-left: 10px;
+    }
+    .fondo{
+        padding: 5px 20px;
+   }
+}
+@media screen and (max-width: 359px) {
+    .login{
+        margin-left: 5px;
+    }
+    .fondo{
+        padding: 5px 20px;
+   }
+}

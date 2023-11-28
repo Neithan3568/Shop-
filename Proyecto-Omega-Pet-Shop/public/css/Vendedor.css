@@ -1,0 +1,299 @@
+.interfazVendedor{
+    display: block;
+}
+.red {
+    width: auto;
+    height: 75px;
+    background-color: rgb(0, 131, 59);
+}
+
+.boton-desplegableV {
+    display: none;
+    /* Inicialmente oculto en pantallas más grandes */
+    background-color: #ffffff;
+    color: rgb(42, 131, 0);
+    border: solid 2px rgb(0, 131, 39);
+    padding: 5px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bodyNavV {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    list-style: none;
+}
+
+/* Estilos específicos para pantallas más pequeñas (menos de 600px de ancho) */
+@media screen and (max-width: 700px) {
+    .boton-desplegableV {
+        display: block;
+        /* Mostrar en pantallas más pequeñas */
+    }
+
+    .bodyNavV {
+        display: none;/* Inicialmente oculto */
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 200px;
+        margin-left: 48%;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        position:absolute;
+    }
+
+    /* Estilos para el contenido cuando el botón se activa (hover) */
+    .boton-desplegableV:focus + .bodyNavV {
+        display: block;
+        /* Mostrar cuando el botón está activo */
+    }
+
+    /* Estilos para los elementos dentro del contenido desplegable */
+
+    /* Estilos para los elementos cuando se activan (hover) */
+}
+.iconoPerfil{
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+.botonPerfil{
+    display: block;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% 100%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: start;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    position: relative;
+    border-top: solid 5px rgb(42, 131, 0);
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+.cabezeraDesple{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.imgDesple{
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 100%;
+    margin-bottom: 8px;
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(0, 0, 0);
+    border-left: solid 5px transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav button{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    color: rgba(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-left: solid 5px transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav .activo{
+    border-left: solid 5px rgb(86, 165, 13);
+    background: rgb(231, 231, 231);
+}
+.cont-menu nav a:hover{
+    border-left: solid 5px rgb(48, 131, 0);
+    background: rgb(231, 231, 231);
+}
+.cont-menu nav button:hover{
+    border-left: solid 5px rgb(63, 131, 0);
+    background: rgb(231, 231, 231);
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 1px ;
+    color: rgb(81, 131, 0);
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1014px) {
+    .red {
+        height: 65px;
+        background-color: rgb(81, 131, 0);
+    }
+    .imgPerfil{
+        width: 40px;
+        height: 40px;
+    }
+    .botonPerfil{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .red {
+        height: 55px;
+        background-color: rgb(48, 131, 0);
+    }
+    .imgPerfil{
+        width: 30px;
+        height: 30px;
+    }
+    .botonPerfil{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.buscarV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    background-color: rgb(224, 224, 224);
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(218, 218, 218);
+    border-bottom: solid 6px rgb(52, 131, 0);
+}
+.buscarBotonV {
+    font-size: 17px;
+    padding: 5px 16px;
+    border-radius: 0px 30px 30px 0px;
+    color: rgb(224, 224, 224);
+    background-color: rgb(70, 131, 0);
+    border: solid 1px rgb(85, 131, 0);
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.buscarBotonV:hover {
+    background-color: rgb(97, 201, 0);
+    border: solid 1px rgb(97, 201, 0);
+    transition: 0.5s;
+}
+.nombreE{
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .nombreE{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 817px) {
+    .catalogo {
+        margin-bottom: 5px;
+    }
+    .buscarV{
+        flex-direction: column;
+        height: 120px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .buscarV{
+        font-size: 17;
+        height: 110px;
+    }
+    .buscarSelect {
+        font-size: 15px;
+        padding: 5px;
+        margin: 3px;
+    }
+    .buscarInput {
+        font-size: 15px;
+        padding: 4px 5px;
+        margin: 3px;
+    }
+    .buscarBotonV {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin: 3px;
+    }
+    
+}
+@media screen and (max-width: 490px) {
+    .catalogo{
+        margin-right: 0px;
+    }
+    .buscarV{
+        text-align: center;
+        flex-direction: column;
+        height: 190px;
+    }
+    .BotonesC{
+        flex-direction: column;
+    }
+    .buscarSelect {
+        margin: 3px 50px;
+        border-radius: 30px;
+    }
+    .buscarInput {
+        margin: 3px;
+    }
+    .buscarBotonV {
+        margin: 3px 50px;
+        border-radius: 30px;
+    }
+}
+.groupPL{
+    display: flex;
+    padding: 25px;
+}

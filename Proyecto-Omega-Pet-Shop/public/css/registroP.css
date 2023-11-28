@@ -1,0 +1,58 @@
+.formProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+.register_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+.groupP{
+    display: flex;
+    border: solid 1px rgb(206, 206, 206);
+    border-radius: 20px;
+    padding: 25px;
+    margin: -10px;
+    margin-bottom: 30px;
+}
+.imgEspacio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.imgP{
+    margin-top: 20px;
+}
+.camposP{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.botonesP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.seleccionarTC{
+    height: 58px;
+    border: solid 1px rgb(226, 226, 226);
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+}
+.seleccionarTC:focus{
+    filter: drop-shadow(1px 1px 3px rgb(1, 141, 255));
+}
