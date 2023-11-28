@@ -183,9 +183,9 @@ const Vendedor = ({ userName }) => {
                     {productos.map((producto, index) => (
                         <><div className="producto">
                             <input type='hidden' key={index}></input>
-                            <img src="/img/Ramo.png" className='imgVendedor' width={50}></img>
+                            <img src="/img/i ico.jpg" className='imgVendedor' width={50}></img>
                             <div className='img'>
-                                <img src="/img/achiras.jpg" width={230} height={270}></img>
+                                <img src="/img/chunky.jpg" width={230} height={270}></img>
                             </div><div className='cardBody'>
                                 <p className='tituloCard'>{producto.tipoProducto} {producto.nombre} {producto.cantidadContenido}{producto.tipoContenido}</p>
                                 <p className='precio'><b>{producto.precio}</b></p>
