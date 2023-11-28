@@ -94,9 +94,9 @@ const Compra = () => {
                 <div className='nav_register'>
                     <div className='tituloNavR'>
                         <div className='icono_register'>
-                            <img src="/img/icono.png" width={40} alt="Icono" />
+                            <img src="/img/icono.jpg" width={40} alt="Icono" />
                         </div>
-                        <b>MiDulceOnline</b>
+                        <b>Omega-Pet-Shop</b>
                     </div>
                     <div className='bodyNavR'>
                     </div>
@@ -122,11 +122,11 @@ const Compra = () => {
                 </div>
                 <div className='box_compra'>
                     <div className='imgCompra'>
-                        <img src='/img/achiras.jpg' width='100%' style={{ borderRadius: 10 }} ></img>
+                        <img src='/img/chuncy.jpg' width='100%' style={{ borderRadius: 10 }} ></img>
                     </div>
                     <div className='contenidoC'>
                         <div className='logoC'>
-                            <img src='/img/Ramo.png' className='imgV' width={89}></img>
+                            <img src='/img/ico.jpg' className='imgV' width={89}></img>
                         </div>
                         <div className='nombreVende'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tags etiqueta" viewBox="0 0 16 16">
@@ -204,8 +204,8 @@ const Compra = () => {
                                                     <label class="input-group-text" for="inputGroupSelect01"><i class="bi bi-person-vcard"></i></label>
                                                     <select name='tipoDocumento' class="form-select" value={tipoDocumento} id="inputGroupSelect01" onChange={onChange}>
                                                         <option selected>Tipo de documento</option>
-                                                        <option value="cc">Cedula de ciudadania</option>
-                                                        <option value="ce">Cedula de extrangeria</option>
+                                                        <option value="cc">Cedula de Ciudadania</option>
+                                                        <option value="ce">Cedula de Extranjeria</option>
                                                         <option value="pa">Pasaporte</option>
                                                     </select>
                                                 </div>
@@ -246,7 +246,7 @@ const Compra = () => {
                                                     <select name='metodoPago' class="form-select" value={metodoPago} id="inputGroupSelect01" onChange={onChange}>
                                                         <option selected>Metodo de pago</option>
                                                         <option value="efectivo">Efectivo</option>
-                                                        <option value="targeta">Targeta</option>
+                                                        <option value="targeta">Tarjeta</option>
                                                         <option value="billetera digital">Billetera digital</option>
                                                     </select>
                                                 </div>
