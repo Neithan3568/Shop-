@@ -246,7 +246,7 @@ const Compra = () => {
                                                     <select name='metodoPago' class="form-select" value={metodoPago} id="inputGroupSelect01" onChange={onChange}>
                                                         <option selected>Metodo de pago</option>
                                                         <option value="efectivo">Efectivo</option>
-                                                        <option value="targeta">Tarjeta</option>
+                                                        <option value="tarjeta">Tarjeta</option>
                                                         <option value="billetera digital">Billetera digital</option>
                                                     </select>
                                                 </div>
